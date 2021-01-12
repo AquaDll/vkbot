@@ -7,7 +7,7 @@ import bs4
 from bs4 import BeautifulSoup
 import requests
 from vk_api.keyboard import VkKeyboard, VkKeyboardColor
-vk = vk_api.VkApi(token='bc3992f58bf78c911b10a25e982b129ea27fc2ef6255c695226e68b8034968949100b3f2216874ab879f0')
+vk = vk_api.VkApi(token='')
 vk._auth_token()
 vk.get_api()
 
